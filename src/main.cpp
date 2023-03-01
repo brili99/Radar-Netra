@@ -239,9 +239,9 @@ void btnTestAction()
   {
     return;
   }
-  if (playMusicDfplayer(3, false))
+  if (playMusicDfplayer(1, false))
   {
-    mode_dfplayer = 3;
+    mode_dfplayer = 1;
     skip_one_counter = true;
   }
 }
